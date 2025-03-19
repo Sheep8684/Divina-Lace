@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa;
+    padding-bottom: 60px; /* Garantir que o conteúdo não fique embaixo do footer fixo */
+}
+.navbar {
+    background: linear-gradient(90deg, #8e44ad, #c0392b);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.inicio {
+    background: url('img/Divina\ logo.webp') center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.inicio h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.3), /* Sombra para o contorno */
+        -2px -2px 4px rgba(0, 0, 0, 0.3), /* Sombra para o contorno */
+        2px -2px 4px rgba(0, 0, 0, 0.3), 
+        -2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.inicio p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-shadow: 
+        1px 1px 3px rgba(0, 0, 0, 0.4), 
+        -1px -1px 3px rgba(0, 0, 0, 0.4); /* Contraste suave na frase */
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.btn-primary {
+    background-color: #8e44ad;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #6c3483;
+}
+footer {
+    background: linear-gradient(90deg, #8e44ad, #c0392b);
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+/* Adicionando um efeito suave de rolagem */
+html {
+    scroll-behavior: smooth;
+}
